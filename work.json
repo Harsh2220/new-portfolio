@@ -7,21 +7,21 @@
   },
   {
     "id": 2,
+    "name": "MetaMusic",
+    "desc": "Blockchain based app where user can upload music and get minted NFT opensea. User can give tip to the other users and hear all song uploaded by different users.",
+    "link": "https://metamusicweb3.netlify.app/"
+  },
+  {
+    "id": 3,
     "name": "Google Clone",
     "desc": "Google Clone UI with searching ability built using ReactJS",
     "link": "https://google-clone2220.netlify.app/"
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Facebook Clone",
     "desc": "Facebook Clone with login and upload posts or photos. Built using ReactJs and Firebase",
     "link": "https://facebook-clone2220.netlify.app/"
-  },
-  {
-    "id": 4,
-    "name": "Trek-the-hill",
-    "desc": "Online hackathon website Built using NextJs and Chakra-UI",
-    "link": "https://trekthehill.co/"
   },
   {
     "id": 5,
@@ -31,18 +31,24 @@
   },
   {
     "id": 6,
+    "name": "Trek-the-hill",
+    "desc": "Online hackathon website Built using NextJs and Chakra-UI",
+    "link": "https://trekthehill.co/"
+  },
+  {
+    "id": 7,
     "name": "Vision'21",
     "desc": "An event website for Vision fest at our College in 2021. Built with NextJs and Chakra-UI",
     "link": "https://cevision.co/"
   },
   {
-    "id": 7,
+    "id": 8,
     "name": "Prakarsh'22",
     "desc": "Event website for Prakarsh fest at our College in 2022. Built with Preact and Chakra-UI",
     "link": "https://prakarsh.org/"
   },
   {
-    "id": 8,
+    "id": 9,
     "name": "Picslight",
     "desc": "Wallpaper and Image downloader website Built using Simple HTML,CSS and JS",
     "link": "https://picslight.netlify.app/"

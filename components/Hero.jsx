@@ -14,26 +14,24 @@ const container = {
       delayChildren: 0.3,
     },
   },
-}
+};
 
 const item = {
   hidden: { opacity: 0, y: 100 },
   show: { opacity: 1, y: 0 },
-}
+};
 
 const getletter = (word) => {
-  return word.split("").map((letter, index) => {
-    return (
-      <MotionBox
-        key={index}
-        color={"white"}
-        display={"inline-block"}
-        variants={item}
-      >
-        {letter}
-      </MotionBox>
-    );
-  });
+  return word.split("").map((letter, index) => (
+    <MotionBox
+      key={index}
+      color={"white"}
+      display={"inline-block"}
+      variants={item}
+    >
+      {letter}
+    </MotionBox>
+  ));
 };
 
 function Hero() {
@@ -59,9 +57,7 @@ function Hero() {
         initial="hidden"
         animate="show"
       >
-        {getletter("I")}{" "}
-        {getletter("am")}{" "}
-        {getletter("Harsh")}
+        {getletter("I")} {getletter("am")} {getletter("Harsh")}
       </MotionHeading>
       <MotionHeading
         fontSize={["5xl", "7xl", "8xl", "9xl"]}

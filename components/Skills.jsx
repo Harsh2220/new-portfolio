@@ -33,15 +33,20 @@ export default function Skills() {
       flexDir={"column"}
       justifyContent="center"
       maxW="container.xl"
-      minH="100vh"
-      my={20}
+      mb={64}
     >
-      <MotionHeading fontSize={["6xl", "6xl", "9xl"]} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>Skills</MotionHeading>
+      <MotionHeading
+        fontSize={["6xl", "6xl", "9xl"]}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+      >
+        Skills
+      </MotionHeading>
       <Flex flexDir="row" gap="8" flexWrap="wrap" mt="24">
         {Skill.map((skill) => {
           return skill.icon;
         })}
       </Flex>
-    </Container>  
+    </Container>
   );
 }

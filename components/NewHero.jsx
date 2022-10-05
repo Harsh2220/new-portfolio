@@ -1,13 +1,17 @@
-import { Stack, Heading } from '@chakra-ui/react'
-import React from 'react'
+import { Stack, Heading, Box } from "@chakra-ui/react";
 
 function NewHero() {
-    return (
-        <Stack minH={'100vh'} alignItems='center' justifyContent={'center'}>
-            <Heading fontSize={['50px', '90px', '160px']}>FULL STACK</Heading>
-            <Heading fontSize={['50px', '90px', '160px']}>DEVELOPER</Heading>
-        </Stack>
-    )
+  return (
+    <Stack minH={"100vh"} alignItems="center" justifyContent={"center"}>
+      <Box>
+        <Heading fontSize={"lg"} lineHeight={"0.5px"} textAlign="right">
+          HELLO, I AM HARSH 👋
+        </Heading>
+        <Heading fontSize={["3rem", "4rem", "6rem"]}>FULL STACK</Heading>
+        <Heading fontSize={["3rem", "4rem", "6rem"]}>DEVELOPER</Heading>
+      </Box>
+    </Stack>
+  );
 }
 
-export default NewHero
+export default NewHero;

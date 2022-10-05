@@ -14,8 +14,8 @@ export default function MyDocument() {
           href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
           rel="stylesheet"
         />
-        <title>Harsh</title>
       </Head>
+      <title>Harsh</title>
       <body>
         <Main />
         <NextScript />

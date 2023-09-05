@@ -1,56 +1,44 @@
 [
   {
     "id": 1,
-    "name": "DevStuff",
-    "desc": "DevStuff is a webapp where you can find illustrations, icons and vectors which are provided by various sites.",
-    "link": "https://developmentstuff.co/"
+    "name": "LensPlay",
+    "desc": "LensPlay is a decentralized, mobile-first video-sharing application built on top of the Lens Protocol. Its main objectives are to provide a focused and streamlined experience for users, simplify the content creation process for creators, and attract more content creators to the Lens Ecosystem.",
+    "link": "https://developmentstuff.netlify.app/"
   },
   {
     "id": 2,
+    "name": "DevSpace",
+    "desc": "DevSpace is a webapp where user can showcase their projects and get feedback from various users.",
+    "link": "https://developmentspace.co/"
+  },
+  {
+    "id": 3,
+    "name": "LensWrap",
+    "desc": "LensWrap shows users followers,posts,comments, nfts, mirros and collects by using lens handle.",
+    "link": "https://lenswrap.netlify.app/"
+  },
+  {
+    "id": 4,
+    "name": "DevStuff",
+    "desc": "DevStuff is a webapp where you can find illustrations, icons and vectors which are provided by various sites.",
+    "link": "https://developmentspace.netlify.app/"
+  },
+  {
+    "id": 5,
     "name": "MetaMusic",
     "desc": "Blockchain based app where user can upload music and get minted NFT opensea. User can give tip to the other users and hear all song uploaded by different users.",
     "link": "https://metamusicweb3.netlify.app/"
   },
   {
-    "id": 3,
+    "id": 6,
     "name": "Google Clone",
-    "desc": "Google Clone UI with searching ability built using ReactJS",
+    "desc": "Google Clone UI with searching ability built using ReactJS.",
     "link": "https://google-clone2220.netlify.app/"
   },
   {
-    "id": 4,
-    "name": "Facebook Clone",
-    "desc": "Facebook Clone with login and upload posts or photos. Built using ReactJs and Firebase",
-    "link": "https://facebook-clone2220.netlify.app/"
-  },
-  {
-    "id": 5,
-    "name": "Hack SVIT",
-    "desc": "Offline in-person hackathon website Built using NextJs and Chakra-UI",
-    "link": "https://hackathon.hackclubsvit.co/"
-  },
-  {
-    "id": 6,
-    "name": "Trek-the-hill",
-    "desc": "Online hackathon website Built using NextJs and Chakra-UI",
-    "link": "https://trekthehill.co/"
-  },
-  {
     "id": 7,
-    "name": "Vision'21",
-    "desc": "An event website for Vision fest at our College in 2021. Built with NextJs and Chakra-UI",
-    "link": "https://cevision.co/"
-  },
-  {
-    "id": 8,
-    "name": "Prakarsh'22",
-    "desc": "Event website for Prakarsh fest at our College in 2022. Built with Preact and Chakra-UI",
-    "link": "https://prakarsh.org/"
-  },
-  {
-    "id": 9,
-    "name": "Picslight",
-    "desc": "Wallpaper and Image downloader website Built using Simple HTML,CSS and JS",
-    "link": "https://picslight.netlify.app/"
+    "name": "Facebook Clone",
+    "desc": "Facebook Clone with login and upload posts or photos. Built using ReactJs and Firebase.",
+    "link": "https://facebook-clone2220.netlify.app/"
   }
 ]

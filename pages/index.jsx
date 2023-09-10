@@ -1,12 +1,12 @@
 import Footer from "../components/Footer";
-import NewHero from "../components/NewHero";
+import Hero from "../components/Hero";
 import Skills from "../components/Skills";
 import Work from "../components/Work";
 
 export default function Home() {
   return (
     <>
-      <NewHero />
+      <Hero />
       <Skills />
       <Work />
       <Footer />

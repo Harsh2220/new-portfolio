@@ -4,6 +4,7 @@ import {
   Flex,
   HStack,
   IconButton,
+  Link,
   Text,
 } from "@chakra-ui/react";
 import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
@@ -21,6 +22,11 @@ export default function Footer() {
       >
         <Text>Made With ❤️ By Harsh</Text>
         <HStack>
+          <Link href="/Resume.pdf">
+            <Text textDecoration={"underline"} fontSize={14} fontWeight={500}>
+              Resume
+            </Text>
+          </Link>
           <IconButton
             variant="ghost"
             icon={<FiGithub />}

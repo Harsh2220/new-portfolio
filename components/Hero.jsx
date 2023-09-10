@@ -1,73 +1,16 @@
-import { Box, Flex, Heading } from "@chakra-ui/react";
-import { motion } from "framer-motion";
-
-const MotionHeading = motion(Heading);
-const MotionFlex = motion(Flex);
-const MotionBox = motion(Box);
-
-const container = {
-  hidden: { opacity: 0 },
-  show: {
-    opacity: 1,
-    transition: {
-      staggerChildren: 0.1,
-      delayChildren: 0.3,
-    },
-  },
-};
-
-const item = {
-  hidden: { opacity: 0, y: 100 },
-  show: { opacity: 1, y: 0 },
-};
-
-const getletter = (word) => {
-  return word.split("").map((letter, index) => (
-    <MotionBox
-      key={index}
-      color={"white"}
-      display={"inline-block"}
-      variants={item}
-    >
-      {letter}
-    </MotionBox>
-  ));
-};
+import { Stack, Heading, Box } from "@chakra-ui/react";
 
 function Hero() {
   return (
-    <MotionFlex
-      minH={"100vh"}
-      flexDir={"column"}
-      justifyContent={["center", "center", "space-evenly"]}
-      alignItems={["center"]}
-      maxW="container.2xl"
-    >
-      <MotionHeading
-        fontSize={["5xl", "7xl", "8xl", "9xl"]}
-        variants={container}
-        initial="hidden"
-        animate="show"
-      >
-        {getletter("Hello")}
-      </MotionHeading>
-      <MotionHeading
-        fontSize={["5xl", "7xl", "8xl", "9xl"]}
-        variants={container}
-        initial="hidden"
-        animate="show"
-      >
-        {getletter("I")} {getletter("am")} {getletter("Harsh")}
-      </MotionHeading>
-      <MotionHeading
-        fontSize={["5xl", "7xl", "8xl", "9xl"]}
-        variants={container}
-        initial="hidden"
-        animate="show"
-      >
-        {getletter("Developer")}
-      </MotionHeading>
-    </MotionFlex>
+    <Stack minH={"100vh"} alignItems="center" justifyContent={"center"}>
+      <Box>
+        <Heading fontSize={"lg"} lineHeight={"0.5px"} textAlign="right">
+          HELLO, I AM HARSH 👋
+        </Heading>
+        <Heading fontSize={["3rem", "4rem", "6rem"]}>FULL STACK</Heading>
+        <Heading fontSize={["3rem", "4rem", "6rem"]}>DEVELOPER</Heading>
+      </Box>
+    </Stack>
   );
 }
 

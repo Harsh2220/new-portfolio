@@ -9,7 +9,7 @@
     "id": 2,
     "name": "DevSpace",
     "desc": "DevSpace is a webapp where user can showcase their projects and get feedback from various users.",
-    "link": "https://developmentspace.co/"
+    "link": "https://developmentspace.netlify.app/"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "id": 4,
     "name": "DevStuff",
     "desc": "DevStuff is a webapp where you can find illustrations, icons and vectors which are provided by various sites.",
-    "link": "https://developmentspace.netlify.app/"
+    "link": "https://developmentstuff.netlify.app/"
   },
   {
     "id": 5,

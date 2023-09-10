@@ -10,18 +10,26 @@ import {
   Mongodb,
   Firebase,
   Flutter,
+  Expo,
+  PostgreSQL,
+  TypeScript,
+  Tailwind,
 } from "./svg";
 
 const Skill = [
   { name: "Html", icon: <Html boxSize={["10", "12", "16"]} /> },
   { name: "Css", icon: <Css boxSize={["10", "12", "16"]} /> },
   { name: "Js", icon: <Js boxSize={["10", "12", "16"]} /> },
+  { name: "TS", icon: <TypeScript boxSize={["10", "12", "16"]} /> },
   { name: "ReactJs", icon: <Reactjs boxSize={["10", "12", "16"]} /> },
+  { name: "Tailwind", icon: <Tailwind boxSize={["10", "12", "16"]} /> },
   { name: "NextJS", icon: <Nextjs boxSize={["10", "12", "16"]} /> },
   { name: "NodeJs", icon: <Nodejs boxSize={["10", "12", "16"]} /> },
   { name: "MongoDB", icon: <Mongodb boxSize={["10", "12", "16"]} /> },
   { name: "Firebase", icon: <Firebase boxSize={["10", "12", "16"]} /> },
   { name: "Flutter", icon: <Flutter boxSize={["10", "12", "16"]} /> },
+  { name: "Expo", icon: <Expo boxSize={["10", "12", "16"]} /> },
+  { name: "PostgreSQL", icon: <PostgreSQL boxSize={["10", "12", "16"]} /> },
 ];
 
 const MotionHeading = motion(Heading);
